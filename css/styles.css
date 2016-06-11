@@ -194,7 +194,7 @@ display: flex;
     background: url('../images/redes.png') 0 0;
 }
 .twitter {
-    background: url('../images/redes.png') -55px 0;
+    background: url('../images/redes.png') -60px 0;
 }
 .google{
     background: url(../images/redes.png) -115px 0;
@@ -203,7 +203,7 @@ display: flex;
     background: url(../images/redes.png) -290px 0;
 }
 .facebook:hover {
-    background: url('../images/redes.png') 0 -55px;
+    background: url('../images/redes.png') 0 -60px;
 }
 .twitter:hover {
     background: url('../images/redes.png') -55px -55px;
