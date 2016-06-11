@@ -14,9 +14,11 @@ padding 0;
 }
 #Encabezado { 
     height: 221px;
+    width: 400px;
     display: flex;
     background-image: url(../images/Cine-Sin.png)  ;
 }
+
 
     
 .titulo * {
