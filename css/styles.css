@@ -47,6 +47,7 @@ padding 0;
 }
 #Menu{
     height: 50px;
+    width: 1200px;
     display: flex;
     background-color: green;
     justify-content: center;
@@ -64,7 +65,11 @@ padding 0;
 #Menu li a:hover{
     padding:  7px;
     background-color: greenyellow;
+    border-style: solid;
+    border-color: black;
+    color: white;
     transition: 0,5s;
+    
 }
 .Conetenido{
     
@@ -252,6 +257,7 @@ display: flex;
 }
 #Barra{
     height: 50px;
+    width: 1200px;
     display: flex;
     background-color: blue;
     justify-content: center;
