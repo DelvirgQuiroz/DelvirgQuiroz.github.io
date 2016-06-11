@@ -141,7 +141,23 @@ display: flex;
     color: black;
     font-variant: small-caps;
     font-size: 1.1em;
-    
+}
+.Buton{
+    display: flex;
+    background-color: blue;
+    display: inline-block;
+    justify-content: space-between 20px;
+    padding: 3px;
+    box-shadow:  0px 1px 3px blue;
+}
+.Buton>div {
+    padding: 3px 10px;
+    border: 1px solid rgba(225,255,255,.7); 
+}
+.Buton p{
+    color: black;
+    font-variant: small-caps;
+    font-size: 0,9em;
 }
 #Publicidad{
     height: 300px;
@@ -223,32 +239,36 @@ display: flex;
   padding: 10px;
   
 }
-#Publicidad-xD img{
-    height: 250px;
-    width: 220;
-}
-.Buton{
-    display: flex;
-    background-color: blue;
-    display: inline-block;
-    justify-content: space-between 20px;
-    padding: 3px;
-    box-shadow:  0px 1px 3px blue;
-}
-.Buton>div {
-    padding: 3px 10px;
-    border: 1px solid rgba(225,255,255,.7); 
-}
-.Buton p{
-    color: black;
-    font-variant: small-caps;
-    font-size: 0,9em;
-    
+.Publicidad-xD img{
+   height: auto;
+    width: 450px;
 }
 #Busqueda{
  padding: 5px;
     border-color: yellow;
     object-position: right;
+}
+#Barra{
+    height: 50px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    font-family: cursive;
+}
+#Barra li a{
+    text-decoration: none;
+    color: black;    
+}
+#Barra li{
+    list-style-type: none;
+    padding: 20px;
+   
+}
+#Barra li a:hover{
+    padding:  7px;
+    background-color: black;
+    color: white;
+    transition: 0,5s;
 }
 #politicas {
    text-align: center;
