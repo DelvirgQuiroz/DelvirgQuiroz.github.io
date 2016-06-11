@@ -18,28 +18,31 @@ padding 0;
     background-image: url(../images/Cine-Sin.png)  ;
 }
 
-
-#Encabezado figure{
-    margin: 0;
-    
-}
-#Encabezado img{
-    height: 100px;
-    width: 300px;
-}
     
 .titulo * {
     margin: 0;
 }
-
+#Buscar , #Encabezado img{
+   margin-left: auto;
+   justify-content: space-between;
+}
 
 #Buscar{
     padding: 5px;
     border-color: red;
     justify-content: space-between;
-    max-width:  500px;
+    width: 200px;
+    height: 10px;
+    display: flex;
+    
 }
-
+#Encabezado img{
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+    border-color: black;
+    
+}
 #Menu{
     height: 50px;
     display: flex;
@@ -64,6 +67,7 @@ padding 0;
 .Conetenido{
     
 }
+
 
 #Nota-Secundaria{
     min-height:  300px;
@@ -161,24 +165,39 @@ display: flex;
     margin-bottom: 10px;
     display: flex;
 }
-.facebook ,.twitter ,.compartir{
-    width: 33px;
-    height: 33px;
+.facebook ,.twitter ,.google, .youtube{
+    width: 52px;
+    height: 52px;
     display: inline-block;
     text-indent: -9999px;
     transition: 0.5s;
+    margin-bottom: auto;
+    
 }
 .facebook {
-    background: url('../images/facebook_twitter.png') 0 0;
+    background: url('../images/redes.png') 0 0;
 }
 .twitter {
-    background: url('../images/facebook_twitter.png') -43px -43px;
+    background: url('../images/redes.png') -55px 0;
+}
+.google{
+    background: url(../images/redes.png) -115px 0;
+}
+.youtube{
+    background: url(../images/redes.png) -290px 0;
 }
 .facebook:hover {
-    background: url('../images/facebook_twitter.png') 0 -43px;
+    background: url('../images/redes.png') 0 -55px;
 }
 .twitter:hover {
-    background: url('../images/facebook_twitter.png') -43px 0;
+    background: url('../images/redes.png') -55px -55px;
+}
+.google:hover {
+    background: url('../images/redes.png') -115px -55px;
+}
+.youtube:hover{
+     background: url('../images/redes.png') -290px -55px;
+    
 }
 .img-publicidad {
     position: relative;
