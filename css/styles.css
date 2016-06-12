@@ -178,7 +178,7 @@ display: flex;
     transition: 0.5s;
     background-color: darkred;
     font-family: cursive;
-    text-decoration:inherit;
+    
 }
 #Publicidad{
     height: 300px;
@@ -271,14 +271,7 @@ display: flex;
     display: inline-flex;
     width: 450px;
 }
-.Publicidad-xD span{
-    font-variant: small-caps;
-    position: absolute;
-    top: 10px;
-    left: -5px;
-    padding: 5px 10px;
-    background-color: lawngreen;
-}
+
 #Busqueda{
  padding: 5px;
     border-color: yellow;
