@@ -141,8 +141,10 @@ display: flex;
     box-shadow:  0px 1px 3px blue;
 }
 .boton>div {
-    padding: 3px 10px;
-    border: 1px solid rgba(225,255,255,.7); 
+    padding: 3 10px;
+    border: 5px solid rgba(225,255,255,.7); 
+    border-style: solid;
+    border-color: white;
 }
 .boton p{
     color: black;
@@ -159,7 +161,7 @@ display: flex;
 }
 .Buton>div {
     padding: 3px 10px;
-    border: 1px solid rgba(225,255,255,.7); 
+    border: 5px solid rgba(225,255,255,.7); 
 }
 .Buton p{
     color: black;
@@ -204,7 +206,7 @@ display: flex;
     background: url('../images/redes.png') -60px 0;
 }
 .google{
-    background: url(../images/redes.png) -115px 0;
+    background: url(../images/redes.png) -118px 0;
 }
 .youtube{
     background: url(../images/redes.png) -290px 0;
@@ -213,13 +215,13 @@ display: flex;
     background: url('../images/redes.png') 0 -60px;
 }
 .twitter:hover {
-    background: url('../images/redes.png') -55px -55px;
+    background: url('../images/redes.png') -60px -60px;
 }
 .google:hover {
-    background: url('../images/redes.png') -115px -55px;
+    background: url('../images/redes.png') -115px -60px;
 }
 .youtube:hover{
-     background: url('../images/redes.png') -290px -55px;
+     background: url('../images/redes.png') -290px -60px;
     
 }
 .img-publicidad {
@@ -246,9 +248,24 @@ display: flex;
   padding: 10px;
   
 }
+#Publicidad-xD{
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
 .Publicidad-xD img{
    height: auto;
+    position: relative;
+    display: inline-flex;
     width: 450px;
+}
+.Publicidad-xD span{
+    font-variant: small-caps;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 5px 10px;
+    background-color: lawngreen;
 }
 #Busqueda{
  padding: 5px;
@@ -274,7 +291,8 @@ display: flex;
 }
 #Barra li a:hover{
     padding:  7px;
-    background-color: black;
+    border-style:double;
+    border-color: white;
     color: white;
     transition: 0,5s;
 }
