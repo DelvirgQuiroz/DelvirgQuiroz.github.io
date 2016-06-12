@@ -151,6 +151,12 @@ display: flex;
     font-variant: small-caps;
     font-size: 1.1em;
 }
+.boton:hover{
+    transition: 0.5s;
+    background: darkblue;
+    font-family: cursive;
+}
+
 .Buton{
     display: flex;
     background-color: blue;
@@ -167,6 +173,12 @@ display: flex;
     color: black;
     font-variant: small-caps;
     font-size: 0,9em;
+}
+.Buton:hover{
+    transition: 0.5s;
+    background-color: darkred;
+    font-family: cursive;
+    text-decoration:inherit;
 }
 #Publicidad{
     height: 300px;
@@ -191,12 +203,12 @@ display: flex;
     display: flex;
 }
 .facebook ,.twitter ,.google, .youtube{
+    align-content: center;
     width: 52px;
     height: 52px;
     display: inline-block;
     text-indent: -9999px;
     transition: 0.5s;
-    margin-bottom: auto;
     
 }
 .facebook {
@@ -218,7 +230,7 @@ display: flex;
     background: url('../images/redes.png') -60px -60px;
 }
 .google:hover {
-    background: url('../images/redes.png') -115px -60px;
+    background: url('../images/redes.png') -118px -60px;
 }
 .youtube:hover{
      background: url('../images/redes.png') -290px -60px;
