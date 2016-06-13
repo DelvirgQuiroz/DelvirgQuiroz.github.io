@@ -27,7 +27,8 @@ padding 0;
 
 #Buscar{
     padding: 5px;
-    border-color: red;
+    border-color: greenyellow;
+    background-color: gray; 
     width: 200px;
     height: 10px;
     display: flex;
@@ -120,8 +121,7 @@ display: flex;
     font-variant: small-caps;
 }
 .titulo-pelicula:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline;    
     
 }
 .Informacion-pelicula {
