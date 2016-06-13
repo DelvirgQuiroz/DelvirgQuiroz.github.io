@@ -16,13 +16,9 @@ padding 0;
     height: 221px;
     width: 1200px;
     display: flex;
+    border-style: solid;
+    border-color: greenyellow;
     background-image: url(../images/Cine-Sin.png)  ;
-}
-
-
-    
-.titulo * {
-    margin: 0;
 }
 #Buscar , #Encabezado img{
    margin-left: auto;
@@ -32,7 +28,6 @@ padding 0;
 #Buscar{
     padding: 5px;
     border-color: red;
-    justify-content: space-between;
     width: 200px;
     height: 10px;
     display: flex;
@@ -46,31 +41,37 @@ padding 0;
     
 }
 #Menu{
-    height: 50px;
+    height: 40px;
     width: 1200px;
     display: flex;
-    background-color: green;
+    background-image: url(../images/Espacio.jpg);
+    border-style: inset;
+    border-color: greenyellow;
     justify-content: center;
     font-family: cursive;
 }
 #Menu li a{
     text-decoration: none;
-    color: black;    
+    color: greenyellow;   
+    width: 10px;
+    border-style: dashed;
+    border-color: white;
+    
 }
 #Menu li{
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
+    
    
 }
 #Menu li a:hover{
-    padding:  7px;
-    background-color: greenyellow;
     border-style: solid;
-    border-color: black;
+    border-color: greenyellow;
     color: white;
     transition: 0,5s;
     
 }
+
 .Conetenido{
     
 }
@@ -117,6 +118,10 @@ display: flex;
     color: green;
     line-height: 0,9em;
     font-variant: small-caps;
+}
+.titulo-pelicula:hover{
+    text-decoration: underline;
+    
     
 }
 .Informacion-pelicula {
@@ -148,7 +153,7 @@ display: flex;
 }
 .boton p{
     color: black;
-    font-variant: small-caps;
+    font-family: cursive;
     font-size: 1.1em;
 }
 .boton:hover{
@@ -177,7 +182,7 @@ display: flex;
 .Buton:hover{
     transition: 0.5s;
     background-color: darkred;
-    font-family: cursive;
+    font-variant: small-caps;
     
 }
 #Publicidad{
@@ -198,12 +203,10 @@ display: flex;
 }
 
 #redes-sociales{
-    text-align: center;
     margin-bottom: 10px;
     display: flex;
 }
 .facebook ,.twitter ,.google, .youtube{
-    align-content: center;
     width: 52px;
     height: 52px;
     display: inline-block;
