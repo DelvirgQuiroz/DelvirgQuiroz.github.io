@@ -12,6 +12,9 @@ padding 0;
     width: 100%;
     background-image: url(../images/Espacio.jpg);
 }
+#xD{
+ width: 1200px;    
+}
 #Encabezado { 
     height: 221px;
     width: 1200px;
@@ -73,8 +76,7 @@ padding 0;
     
 }
 
-.Conetenido{
-    
+.Conetenido{    
 }
 
 
@@ -277,31 +279,34 @@ display: flex;
 
 #Busqueda{
  padding: 5px;
-    border-color: yellow;
+    border-color: greenyellow;
     object-position: right;
 }
 #Barra{
-    height: 50px;
+    height: 40px;
     width: 1200px;
     display: flex;
-    background-color: blue;
+    background-image: url(../images/lupa.gif);
     justify-content: center;
     font-family: cursive;
+    border-style: solid;
+    border-color: greenyellow;
 }
 #Barra li a{
     text-decoration: none;
-    color: black;    
+    color: black; 
+    border-style: dashed;
+    border-color: black;
 }
 #Barra li{
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
    
 }
 #Barra li a:hover{
-    padding:  7px;
     border-style:double;
     border-color: white;
-    color: white;
+    color: darkgreen;
     transition: 0,5s;
 }
 #politicas {
