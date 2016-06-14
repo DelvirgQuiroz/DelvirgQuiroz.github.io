@@ -317,10 +317,12 @@ display: flex;
    border-bottom: 3px double lightgreen;
    padding: 3px 0; 
    color: darkgray;
+    width: 1200px;
 }
 #politicas abbr{
     cursor: help;
     border-bottom: 1px dotted lightgray;
+    width: 1200px;
 }
 
 
@@ -337,5 +339,6 @@ display: flex;
     text-align: center;
     font-size: 0,7;
     color: lightgreen;
+    width: 1200px;
     
 }
