@@ -188,7 +188,7 @@ display: flex;
 }
 #Publicidad{
     height: 300px;
-    width: 220px;
+    display: inline-block;
     
 }
 #Numeracion a{
@@ -264,6 +264,7 @@ display: flex;
   padding: 10px;
   
 }
+
 #Publicidad-xD{
   justify-content: space-between;
   margin-bottom: 10px;
@@ -275,10 +276,6 @@ display: flex;
     display: inline-flex;
     width: 400px;
 }
-.Publicidad-xD img:hover{
-    image-resolution: from-image;
-}
-
 #Busqueda{
  padding: 5px;
     border-color: greenyellow;
