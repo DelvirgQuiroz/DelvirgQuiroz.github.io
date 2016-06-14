@@ -81,7 +81,7 @@ padding 0;
 
 #Nota-Secundaria{
     min-height:  300px;
-    width: 720px;
+    width: 620px;
     display: inline-block;
     
 }
@@ -307,6 +307,9 @@ display: flex;
     border-color: white;
     color: darkgreen;
     transition: 0,5s;
+}
+#Pie{
+    width: 1200px;
 }
 #politicas {
    text-align: center;
