@@ -275,6 +275,9 @@ display: flex;
     display: inline-flex;
     width: 400px;
 }
+.Publicidad-xD img:hover{
+    image-resolution: from-image;
+}
 
 #Busqueda{
  padding: 5px;
